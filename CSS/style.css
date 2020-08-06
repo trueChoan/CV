@@ -1,5 +1,6 @@
 body {
-  background-color: #F0F8FF;
+  
+ background:  linear-gradient( #F0F8FF, white)
   margin-left: 20%;
   margin-right: 20%;
 }
