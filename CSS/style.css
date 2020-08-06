@@ -1,0 +1,27 @@
+body {
+  background-color: #F0F8FF;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1, h3 {
+  background-color: #F0F8FF;
+  text-shadow: 2px 2px 3px darkgrey; /* IDEA: epaisseur et hauteur de l'ombre puis flou  */
+
+color: #006a71;
+
+}
+hr {
+  border-style: none;
+  border-top: 8px dotted darkgrey;
+  border-width: 8px; /* IDEA: 8px dans l'attribut de border top ou un autre attribut a part border width= meme effet */
+  width: 10%;
+}
+
+.serif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.CV {
+  color: #D2691E;
+}
