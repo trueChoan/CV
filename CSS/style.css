@@ -1,8 +1,8 @@
 body {
   
- background:  linear-gradient( #F0F8FF, white)
-  margin-left: 20%;
-  margin-right: 20%;
+ background-image:  linear-gradient( #F0F8FF, white)
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1, h3 {
