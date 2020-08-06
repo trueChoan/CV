@@ -1,12 +1,12 @@
 body {
   
- background-image:  linear-gradient( #F0F8FF, white)
+ background:  linear-gradient( #F0F8FF, white)
   margin-left: 10%;
   margin-right: 10%;
 }
 
 h1, h3 {
-  background-color: #F0F8FF;
+  
   text-shadow: 2px 2px 3px darkgrey; /* IDEA: epaisseur et hauteur de l'ombre puis flou  */
 
 color: #006a71;
