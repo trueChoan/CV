@@ -1,26 +1,65 @@
+
+.johan{
+  font-family: 'alex_brushregular';
+  font-size: 4em;
+  margin-bottom: 4px;
+}
 body {
-  
- background:  linear-gradient( #F0F8FF, white), fixed;
-  margin-left: 10%;
-  margin-right: 10%;
+  background: linear-gradient(#F0F8FF, white) no-repeat fixed;
+
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+.float {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.dessous {
+  clear: both;
+}
+table{
+  background-color: #FFE4C4;
+  border-radius: 20px;
+}
+ul {
+  padding-left: 20px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+
+}
+
+.chapitre1 {
+  margin-left: 0;
+  margin-bottom: 20px;
 }
 
 h1, h3 {
-  
-  text-shadow: 2px 2px 3px darkgrey; /* IDEA: epaisseur et hauteur de l'ombre puis flou  */
+  text-shadow: 2px 2px 3px white;
+  /* IDEA: epaisseur et hauteur de l'ombre puis flou  */
+  color: #000000;
+  color: rgba(9, 9, 150, 0.6);
+}
+h3 {
 
-color: #006a71;
-
+  margin-bottom: 1px;
+  text-decoration: underline;
 }
 hr {
   border-style: none;
   border-top: 8px dotted darkgrey;
-  border-width: 8px; /* IDEA: 8px dans l'attribut de border top ou un autre attribut a part border width= meme effet */
+  border-width: 8px;
+  /* IDEA: 8px dans l'attribut de border top ou un autre attribut a part border width= meme effet */
   width: 10%;
 }
 
 .serif {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: aileronregular, Helvetica, sans-serif;
 }
 
-
+.CV {
+  color: #D2691E;
+}
