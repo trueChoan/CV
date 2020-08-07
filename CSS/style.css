@@ -1,12 +1,11 @@
-
-.johan{
+.johan {
   font-family: 'alex_brushregular', Arial;
   font-size: 4em;
   margin-bottom: 4px;
 }
+
 body {
   background: linear-gradient(#F0F8FF, white) no-repeat fixed;
-
   margin-left: 20%;
   margin-right: 20%;
   text-align: justify;
@@ -21,15 +20,29 @@ body {
 .dessous {
   clear: both;
 }
-table{
+
+.tableau {
+  border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.tableau2, .tableau3 {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.tableau4 {
+  border-radius: 0;
+  border-right: 1px solid;
+}
+table {
   background-color: #FFE4C4;
   border-radius: 20px;
 }
+
 ul {
   padding-left: 20px;
   margin-top: 1px;
   margin-bottom: 5px;
-
 }
 
 .chapitre1 {
@@ -40,7 +53,8 @@ ul {
 h1, h3 {
   text-shadow: 2px 2px 3px white;
   /* IDEA: epaisseur et hauteur de l'ombre puis flou  */
-  color: #000000; /* couleur de secours si bug d'opacité*/
+  color: #000000;
+  /* couleur de secours si bug d'opacité*/
   color: rgba(9, 9, 150, 0.8);
 }
 
@@ -57,7 +71,8 @@ hr {
 }
 
 .CV {
-  color:rgba(9, 9, 150, 0.7);
+  color: black;
+  color: rgba(9, 9, 150, 0.7);
   text-decoration: underline;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
