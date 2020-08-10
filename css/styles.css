@@ -60,13 +60,13 @@ a {
 .cloud-top {
   position: absolute;
   right: 20%;
-  top: 50px;
+  top: 40px;
 }
 
 .cloud-bottom {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 250px;
+  bottom: 350px;
 }
 
 .pro {
@@ -115,6 +115,11 @@ a {
 .middle-container {
   margin: 10px auto;
   width: 50%;
+}
+
+.paragraphe {
+  width: 85%;
+  text-align: justify;
 }
 
 .btn {
