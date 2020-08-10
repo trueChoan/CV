@@ -1,0 +1,161 @@
+/* font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Recursive', sans-serif;
+font-family: 'Sacramento', cursive;  */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Recursive', sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  color: #e4de66;
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #e4de66;
+}
+
+h3 {
+  margin-top: 0;
+  color: #4B788F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.johanh1 {
+  margin: 50px auto 20px auto;
+  font-size: 5rem;
+  font-family: 'Sacramento', cursive;
+  color: #e4de66;
+}
+
+.programmeurh2 {
+  font-weight: normal;
+}
+
+.profil {
+  width: 10%;
+  padding: 30px 0 0 0;
+}
+
+.johan2 {
+  margin: 10px 0 0 0;
+}
+
+hr {
+  margin: 10px auto 50px auto;
+  border: dotted #D3D3D3;
+  border-width: 0 0 10px 0;
+  width: 10%;
+}
+
+a {
+  color: #e4de66;
+}
+
+.top-container {
+  background-color: #4b788f;
+  padding-top: 100px;
+  position: relative;
+}
+
+.cloud-top {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.justify {
+  text-align: justify;
+  line-height: 2;
+}
+
+.skill-row {
+  position: relative;
+  margin: 50px auto;
+  width: 100%;
+  line-height: 2;
+  text-align: left;
+}
+
+.velo, .skill {
+  width: 15%;
+  /* 25% de la taille du parent, skill-row  */
+}
+
+.skill {
+  margin-right: 30px;
+  float: left;
+}
+
+.velo {
+  float: right;
+  margin: 0 0 0 30px;
+}
+
+.middle-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.btn {
+  margin: 50px auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 0;
+  line-height: 0px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  width: 201px;
+  font-size: 22px;
+  font-weight: 200;
+  padding: 30px;
+  background-color: #4B788F;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #4B788F;
+  border: solid #E4DE66 5px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-container {
+  height: 100px;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #4b788f;
+}
+
+.footer-link {
+  padding: 50px;
+}
+
+.signature {
+  margin-top: 30px;
+  color: #FFFFFF;
+}
